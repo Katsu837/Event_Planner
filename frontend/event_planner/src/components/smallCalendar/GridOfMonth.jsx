@@ -29,9 +29,9 @@ const GridOfMonth = function (props)
     }
 
     return(
-        <div className="SC_GridOfMonth">
+        <div className="sc_gridOfMonth">
             {grid.map(day => (
-                <a className={"SC_Day " + day.flagToday} key={day.id}>{day.value}</a>
+                <a className={"sc_day " + day.flagToday} key={day.id}>{day.value}</a>
             ))}
         </div>
     )

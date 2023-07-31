@@ -1,11 +1,11 @@
 import React from "react";
-import SmallCalendar from "./smallCalendar/SmallCalendar";
+import "./MainPage.modules.css"
 
 const MainPage = function ()
 {
     return(
-        <div className="MainPage">
-            <SmallCalendar/>
+        <div className="mainPage">
+
         </div>
     )
 }

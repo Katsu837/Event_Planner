@@ -1,0 +1,8 @@
+.mainPage
+{
+    margin: calc(40 / 1920 * 100%);
+    display: grid;
+    grid-template-columns: calc(425 / 1920 * 100%) calc(245 / 1920 * 100%) calc(950 / 1920 * 100%) calc(80 / 1920 * 100%);
+    grid-template-rows: calc(80 / 1920 * 100%) calc(50 / 1920 * 100%) calc(220 / 1920 * 100%) calc(520 / 1920 * 100%);
+    grid-gap: calc(40 / 1920 * 100%)
+}

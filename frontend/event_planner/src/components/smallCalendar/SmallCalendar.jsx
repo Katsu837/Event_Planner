@@ -56,17 +56,17 @@ const SmallCalendar = function (props) {
     }
 
     return(
-        <section className="SmallCalendar">
+        <section className="smallCalendar">
 
-            <div className="SmallCalendarFirstLine">
-                <button className="SC_PreviousMonth" onClick={setPreviousMonth}><img alt="Previous"/></button>
-                <a className="SC_NameOfMonth">{listOfMonths[useMonth]} {useYear}</a>
-                <button className="SC_NextMonth" onClick={setNextMonth}><img alt="Next"/></button>
+            <div className="sc_FirstLine">
+                <button className="sc_previousMonth" onClick={setPreviousMonth}><img alt="Previous"/></button>
+                <a className="sc_nameOfMonth">{listOfMonths[useMonth]} {useYear}</a>
+                <button className="sc_nextMonth" onClick={setNextMonth}><img alt="Next"/></button>
             </div>
 
-            <div className="SC_DaysOfWeek">
+            <div className="sc_daysOfWeek">
                 {listOfDaysOfWeek.map(day => (
-                    <a className={"SC_DayOfWeek " + day.name} key={day.id}>{day.name}</a>
+                    <a className={"sc_dayOfWeek " + day.name} key={day.id}>{day.name}</a>
                 ))}
             </div>
 
